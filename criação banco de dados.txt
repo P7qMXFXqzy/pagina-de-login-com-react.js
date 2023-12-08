@@ -1,0 +1,11 @@
+processos para recriar o banco de dados utilizado na aplicação
+
+create database projetoReact;
+
+use projetoReact;
+CREATE TABLE usuarios(nome VARCHAR(255), senha VARCHAR(255));
+
+INSERT INTO usuarios VALUES
+("afonso", "abcd"),
+("maria", "1298"),
+("eduardo", "09zx");
